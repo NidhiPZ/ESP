@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "main",
-    "project_version":    "34cedba-dirty",
+    "project_version":    "796ac04-dirty",
     "project_path":       "D:/Nidhi/ESP/2_multitasking/Task_2",
     "idf_path":           "C:/Users/DNK133/ESP/v5.3/esp-idf",
     "build_dir":          "D:/Nidhi/ESP/2_multitasking/Task_2/build",

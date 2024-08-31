@@ -12,7 +12,7 @@ void Thread1(void *p)
 	for(;;)
 	{
 		printf("Thread1: %s\r\n", str1);
-		vTaskDelay(250/portTICK_PERIOD_MS);
+		vTaskDelay(250);
 	}
 
 }
@@ -23,7 +23,7 @@ void Thread2(void *p)
 	for(;;)
 	{
 		printf("Thread2: %s\r\n", str2);
-		vTaskDelay(500/portTICK_PERIOD_MS);
+		vTaskDelay(500);
 	}
 
 }

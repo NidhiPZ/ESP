@@ -1,0 +1,45 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\Nidhi\ESP\3_QueueRTOS\Queue_1\build\bootloader\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/Nidhi/ESP/3_QueueRTOS/Queue_1/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/queue.c.obj
+D:/Nidhi/ESP/3_QueueRTOS/Queue_1/main/queue.c: In function 'app_main':
+D:/Nidhi/ESP/3_QueueRTOS/Queue_1/main/queue.c:55:25: warning: initialization of 'BaseType_t' {aka 'int'} from 'void *' makes integer from pointer without a cast [-Wint-conversion]
+   55 |     BaseType_t xReturn =NULL;
+      |                         ^~~~
+D:/Nidhi/ESP/3_QueueRTOS/Queue_1/main/queue.c:64:30: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+   64 |         xReturn= xTaskCreate(Sender, "SenderThread", 2048, NULL, 1, &Handler_1);
+      |                              ^~~~~~
+      |                              |
+      |                              void (*)(void)
+In file included from C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h:20,
+                 from C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:1533,
+                 from D:/Nidhi/ESP/3_QueueRTOS/Queue_1/main/queue.c:4:
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:371:44: note: expected 'TaskFunction_t' {aka 'void (*)(void *)'} but argument is of type 'void (*)(void)'
+  371 |     BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+      |                             ~~~~~~~~~~~~~~~^~~~~~~~~~
+D:/Nidhi/ESP/3_QueueRTOS/Queue_1/main/queue.c:65:19: warning: comparison between pointer and integer
+   65 |         if(xReturn==NULL)
+      |                   ^~
+D:/Nidhi/ESP/3_QueueRTOS/Queue_1/main/queue.c:70:30: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+   70 |         xReturn= xTaskCreate(Receiver, "ReceiverThread", 2048, NULL, 2, &Handler_2);
+      |                              ^~~~~~~~
+      |                              |
+      |                              void (*)(void)
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:371:44: note: expected 'TaskFunction_t' {aka 'void (*)(void *)'} but argument is of type 'void (*)(void)'
+  371 |     BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+      |                             ~~~~~~~~~~~~~~~^~~~~~~~~~
+D:/Nidhi/ESP/3_QueueRTOS/Queue_1/main/queue.c:71:19: warning: comparison between pointer and integer
+   71 |         if(xReturn==NULL)
+      |                   ^~
+[3/8] Linking C static library esp-idf\main\libmain.a
+[4/8] Generating ld/sections.ld
+[5/8] Building C object CMakeFiles/queue.elf.dir/project_elf_src_esp32.c.obj
+[6/8] Linking CXX executable queue.elf
+[7/8] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Nidhi/ESP/3_QueueRTOS/Queue_1/build/queue.bin
+[8/8] cmd.exe /C "cd /D D:\Nidhi\ESP\3_QueueRTOS\Queue_1\build\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Nidhi/ESP/3_QueueRTOS/Queue_1/build/partition_table/partition-table.bin D:/Nidhi/ESP/3_QueueRTOS/Queue_1/build/queue.bin"
+queue.bin binary size 0x2b910 bytes. Smallest app partition is 0x100000 bytes. 0xd46f0 bytes (83%) free.

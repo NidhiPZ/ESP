@@ -10,10 +10,10 @@ void app_main(void)
     {
         gpio_set_level(GPIO_NUM_2, 1);
         printf("LED ON\n");
-        vTaskDelay(1000/portTICK_PERIOD_MS); 
+        vTaskDelay(1000); 
         
         gpio_set_level(GPIO_NUM_2, 0);
         printf("LED OFF\n");
-        vTaskDelay(1000/portTICK_PERIOD_MS);
+        vTaskDelay(1000);
     }
 }

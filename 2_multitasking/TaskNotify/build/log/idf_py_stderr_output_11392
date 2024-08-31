@@ -1,0 +1,279 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM3 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM3 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mRunning C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Users\DNK133\ESP\v5.3\esp-idf\tools\idf.py -p COM3 app-flash...[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33mRunning C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Users\DNK133\ESP\v5.3\esp-idf\tools\idf.py -p COM3 app-flash...[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40081816: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x40085599: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b435: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x40087ed0: xTaskGenericNotify at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:5897 (discriminator 1)
+0x400d5d88: Task1 at D:/Nidhi/ESP/2_multitasking/TaskNotify/main/tasknotyfy.c:16
+0x40085dfd: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 5a90fe08dadc5e525605db16cacf3e154e0dc9dcb42d777ee7f53cc3365fb246[0m
+[0;33m0x40080400: _in

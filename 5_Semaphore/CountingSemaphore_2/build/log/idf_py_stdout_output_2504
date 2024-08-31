@@ -1,0 +1,68 @@
+[1/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/CounSema.c.obj
+D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c: In function 'app_main':
+D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:69:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+   69 |     xTaskCreate(Task_1, "task1", 2048, NULL, 1, NULL);
+      |                 ^~~~~~
+      |                 |
+      |                 void (*)(void)
+In file included from C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h:20,
+                 from C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:1533,
+                 from D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:2:
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:371:44: note: expected 'TaskFunction_t' {aka 'void (*)(void *)'} but argument is of type 'void (*)(void)'
+  371 |     BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+      |                             ~~~~~~~~~~~~~~~^~~~~~~~~~
+D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:70:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+   70 |     xTaskCreate(Task_2, "task2", 2048, NULL, 1, NULL);
+      |                 ^~~~~~
+      |                 |
+      |                 void (*)(void)
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:371:44: note: expected 'TaskFunction_t' {aka 'void (*)(void *)'} but argument is of type 'void (*)(void)'
+  371 |     BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+      |                             ~~~~~~~~~~~~~~~^~~~~~~~~~
+D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:71:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+   71 |     xTaskCreate(Task_3, "task3", 2048, NULL, 1, NULL);
+      |                 ^~~~~~
+      |                 |
+      |                 void (*)(void)
+C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:371:44: note: expected 'TaskFunction_t' {aka 'void (*)(void *)'} but argument is of type 'void (*)(void)'
+  371 |     BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+      |                             ~~~~~~~~~~~~~~~^~~~~~~~~~
+[2/7] Linking C static library esp-idf\main\libmain.a
+[3/7] Generating ld/sections.ld
+[4/7] Linking CXX executable CounSema.elf
+[5/7] Generating binary image from built executable
+esptool.py v4.8.dev5
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/build/CounSema.bin
+[6/7] cmd.exe /C "cd /D D:\Nidhi\ESP\5_Semaphore\CountingSemaphore_2\build\esp-idf\esptool_py && C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/DNK133/ESP/v5.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/build/partition_table/partition-table.bin D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/build/CounSema.bin"
+CounSema.bin binary size 0x2b880 bytes. Smallest app partition is 0x100000 bytes. 0xd4780 bytes (83%) free.
+[6/7] cmd.exe /C "cd /D C:\Users\DNK133\ESP\v5.3\esp-idf\components\esptool_py && C:\Users\DNK133\.espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Users/DNK133/ESP/v5.3/esp-idf -D SERIAL_TOOL=C:/esptool.py --chip esp32 -p COM3 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x10000 CounSema.bin
+esptool.py v4.8.dev5
+Serial port COM3
+Connecting..........
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: c8:f0:9e:50:58:5c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00010000 to 0x0003bfff...
+Compressed 178304 bytes to 95259...
+Writing at 0x00010000... (16 %)
+Writing at 0x0001c1f1... (33 %)
+Writing at 0x00021d4d... (50 %)
+Writing at 0x000277bb... (66 %)
+Writing at 0x0002ef25... (83 %)
+Writing at 0x00036496... (100 %)
+Wrote 178304 bytes (95259 compressed) at 0x00010000 in 2.9 seconds (effective 498.3 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+Users/DNK133/.espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe;;C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@app-flash_args -D WORKING_DIRECTORY=D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/build -P C:/Users/DNK133/ESP/v5.3/esp-idf/components/esptool_py/run_serial_tool.cmake"

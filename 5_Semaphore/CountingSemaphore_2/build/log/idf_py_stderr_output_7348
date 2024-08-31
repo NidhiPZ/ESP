@@ -1,0 +1,789 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM3 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM3 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mRunning C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Users\DNK133\ESP\v5.3\esp-idf\tools\idf.py -p COM3 app-flash...[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mRunning C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Users\DNK133\ESP\v5.3\esp-idf\tools\idf.py -p COM3 app-flash...[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+[0m
+[0;33m0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mTo exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33mTo exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33mTo exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33mTo exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mRunning C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Users\DNK133\ESP\v5.3\esp-idf\tools\idf.py -p COM3 app-flash...[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+[0m
+[0;33m0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 2845870a4712202ff0ea0d27002e73615378943538b7828f08acd9f5e7bce9da[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mRunning C:\Users\DNK133\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:\Users\DNK133\ESP\v5.3\esp-idf\tools\idf.py -p COM3 app-flash...[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+[0m
+[0;33m0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+[0m
+[0;33m0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x4008181e: panic_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/panic.c:463
+0x400855a1: esp_system_abort at C:/Users/DNK133/ESP/v5.3/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008b47d: __assert_func at C:/Users/DNK133/ESP/v5.3/esp-idf/components/newlib/assert.c:80
+0x4008593d: xQueueCreateCountingSemaphore at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:917 (discriminator 1)
+0x400d5e15: app_main at D:/Nidhi/ESP/5_Semaphore/CountingSemaphore_2/main/CounSema.c:60
+0x400e2eb0: main_task at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/app_startup.c:208
+0x40085e45: vPortTaskWrapper at C:/Users/DNK133/ESP/v5.3/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33mWarning: checksum mismatch between flashed and built applications. Checksum of built application is 174660959299e009f5da21cee40ce0bf33d63ac9aaef0e5f7a7394c9efb20c89[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m
+Traceback (most recent call last):
+  File "C:\Users\DNK133\ESP\v5.3\esp-idf\tools/idf_monitor.py", line 11, in <module>
+    sys.exit(subprocess.run([sys.executable, '-m', 'esp_idf_monitor'] + sys.argv[1:]).returncode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "subprocess.py", line 550, in run
+  File "subprocess.py", line 1199, in communicate
+  File "subprocess.py", line 1262, in wait
+  File "subprocess.py", line 1543, in _wait
+KeyboardInterrupt
